@@ -1,0 +1,288 @@
+Build Phase Guidelines
+
+* Participants are required to choose one of two problem statements and build a functional solution within the challenge timeline (22nd June 3pm - 29th June 2pm). 
+* Submission Deadline: 29th June 2026 , 2:00 PM . Late entries will not be accepted. 
+* Google AI Studio must be used as the core tool to build and deploy the functional solution.  
+* A Mentor Session will be held on 24th June 2026 (4:00 PM – 6:00 PM), covering problem statement walkthroughs, recommended solution approaches, and guidance on effectively using Google AI Studio for solution development and deployment.  Registered participants will receive an email with the registration and joining details for the session. 
+* Participants must follow the submission requirements outlined in the tabs below to be eligible for evaluation. Platform submission steps are also provided.   Please note that submissions will be accepted only through the BlockseBlock platform on which you registered for the hackathon. 
+* The use of AI tools, open-source libraries, and publicly available resources is permitted and encouraged. However, participants must ensure that their submission reflects their own work, understanding, and implementation.
+* Submission Requirements 
+Mandatory:
+To be eligible for evaluation, each participant must submit the following:
+   * Deployed Application Link
+      * A publicly accessible and fully functional version of the application, deployed using Google AI Studio. The submitted link must remain active and accessible throughout the evaluation period. 
+      * Refer to the below doc - https://ai.google.dev/gemini-api/docs/aistudio-deploying  
+   * GitHub Repository Link
+      * Source code repository containing the project code and documentation. 
+   * Project Description (Google Doc Link) - Submit a Google Doc containing the following details:
+   * Problem Statement Selected
+   * Solution Overview
+   * Key Features
+   * Technologies Used
+   * Google Technologies Utilized
+Please ensure that the document is accessible to anyone with the link and remains available throughout the evaluation period. Organizers may review the document and its version history as part of the evaluation process.Evaluation Matrix
+All submissions will be evaluated based on the criteria specified in the evaluation matrix below.
+The organizers reserve the right to verify the originality, functionality, and eligibility of any submission and may request additional evidence if required.
+The jury's decision regarding shortlisting, rankings, and winner selection shall be final and binding.
+Criteria
+Weightage
+Problem Solving & Impact
+20%
+Agentic Depth
+20%
+Innovation & Creativity
+20%
+Usage of Google Technologies
+15%
+Product Experience & Design
+10%
+Technical Implementation
+10%
+Completeness & Usability
+5%
+The Last-Minute Life Saver
+Background 
+Students, professionals, and entrepreneurs frequently miss deadlines, assignments, meetings, bill payments, interviews, and important commitments. Existing productivity tools often rely on passive reminders that are easy to ignore and do little to help users actually complete their tasks.
+Challenge 
+Build an AI-powered productivity companion that proactively assists users in planning, prioritizing, and completing tasks before deadlines are missed.
+The solution should move beyond traditional reminders and focus on helping users take meaningful action.
+Example Features:
+   * Intelligent task prioritization
+   * AI-powered scheduling assistance
+   * Personalized productivity recommendations
+   * Context-aware reminders
+   * Calendar integration
+   * Goal and habit tracking
+   * Voice-enabled assistance
+   * Autonomous task planning and execution
+Evaluation Focus 
+The solution should demonstrate how AI can improve productivity by helping users make better decisions and complete tasks more effectively.Community Hero - Hyperlocal Problem Solver
+Background 
+Communities frequently face issues such as potholes, water leakages, damaged streetlights, waste management concerns, and public infrastructure challenges. Reporting these issues is often fragmented, difficult to track, and lacks transparency.
+Challenge 
+Build a platform that enables citizens to identify, report, validate, track, and resolve community issues through collaboration, data, and intelligent automation.
+The solution should encourage transparency, accountability, and community participation.
+Example Features: 
+   * Image and video-based issue reporting
+   * AI-powered issue categorization
+   * Geo-location and mapping
+   * Community verification
+   * Real-time issue tracking
+   * Impact dashboards
+   * Predictive insights
+   * Gamification for citizen engagement
+Evaluation Focus
+The solution should demonstrate how AI can help communities address local challenges more efficiently through improved reporting, verification, tracking, and resolution of issues.
+see this is guidelines and problem sattement of hackathon i want you to help me choose one which will definetly make my path to win and also choose that one on which you can help with new new ideas and unique so explain dono prblm m h ky krna ky h sb
+
+Dekho, dono problem statements ka breakdown kar deta hoon, fir clear recommendation dunga ki kaunsa choose karna chahiye and kyun.
+
+## Problem Statement 1: The Last-Minute Life Saver
+
+**Kya karna hai:** Ek AI productivity companion banana hai jo deadlines miss hone se pehle proactively help kare — task prioritize kare, schedule banaye, reminders de jo ignore na ho sakein, aur autonomously kuch actions bhi le.
+
+**Core idea:** Sirf reminder app nahi — ek "agent" jo decide kare ki user ko kya karna chahiye aur kab, aur kabhi-kabhi khud bhi action le (jaise email draft karna, calendar slot block karna, etc).
+
+## Problem Statement 2: Community Hero
+
+**Kya karna hai:** Ek civic-tech platform jaha log apne area ke problems (potholes, streetlight, garbage) photo/video se report kar sakein, AI usko categorize kare, map pe dikhaye, community verify kare ki issue real hai ya nahi, aur tracking + dashboard ho resolution ka.
+
+**Core idea:** Crowdsourced issue reporting + AI categorization + map-based tracking + gamification.
+
+---
+
+## Mera Recommendation: **Problem Statement 1 (Last-Minute Life Saver)**
+
+Yahan winning ka strategy hai, evaluation matrix dekhke:
+
+| Criteria | Weightage | Kaunsa PS better fit hai |
+|---|---|---|
+| Agentic Depth | 20% | **PS1 wins big** — productivity agent ka pura concept hi "agentic" hai (autonomous planning + execution) |
+| Innovation & Creativity | 20% | PS1 mein zyada room hai unique angles ke liye |
+| Usage of Google Tech | 15% | Dono possible, par PS1 mein Calendar API, Gemini function calling, voice — sab fit ho jaata hai naturally |
+| Problem Solving & Impact | 20% | Dono strong, PS2 thoda zyada "social good" feel deta hai par judging panel mostly tech-depth dekhega |
+
+**Sabse badi reason:** "Agentic Depth" 20% weightage ke saath ek alag criteria hai — matlab judges specifically dekh rahe hain ki tumhara AI kitna **autonomous** hai, sirf chatbot nahi hai. PS1 (productivity agent) is criteria ke liye literally bana hai. PS2 (civic reporting) mein agentic depth dikhana harder hai — wo zyada CRUD app + AI classifier jaisa lagta hai unless tum bohot creative ho.
+
+Dusra reason — main tumhe better help kar sakta hoon PS1 pe kyunki yahan unique agent-behavior design, multi-step reasoning chains, aur Gemini ke function-calling/tool-use ke saath bohot creative experiments kar sakte hain.
+
+---
+
+## Unique Angle for PS1 (jisse tum stand out karoge)
+
+Most teams banayenge: "to-do list + reminder + calendar sync." Boring, generic.
+
+Tumhara unique twist ho sakta hai: **"Commitment Contract Agent"**
+
+1. **Procrastination Detector** — agent track kare ki user ne task start kiya ya nahi (check-ins ke through), aur agar delay dikhe to apne se escalate kare — pehle gentle nudge, fir harder consequence-based nudge (jaise "agar 2 ghante mein nahi kiya, main tumhare mentor/friend ko bata dunga" — with user consent obviously).
+
+2. **Micro-task Breakdown Agent** — bada task (jaise "assignment likhna") ko khud break kare chhote 15-20 min ke actionable steps mein, aur ek step complete hone par next step proactively suggest kare.
+
+3. **Context-aware reasoning** — agent sirf time-based reminder na de, balki user ke calendar, energy pattern, aur past behavior se decide kare "abhi karna best time hai ya nahi."
+
+4. **Voice-based check-in** — Gemini ke voice capability se daily 2-min voice check-in lena: "aaj kya pending hai, kya blocker hai" — aur usi se plan update karna.
+
+5. **Autonomous email/message drafting** — agar deadline miss hone wali hai aur extension chahiye, agent khud ek polite email draft kare professor/manager ko (user approval ke baad bhejna).
+
+Yeh sab combine karke ek "agent jo sirf remind nahi karta, balki tumhare saath kaam complete karwata hai" — judges ke liye ye fresh aur "agentic" lagega.
+
+Chaaho to main tumhe ek architecture diagram bana sakta hoon (Gemini + tools + calendar API kaise connect honge), ya phir ek pitch outline bana doon for the Google Doc submission. Bata do kis se start karna hai.
+Chalo poora project plan banate hain "Last-Minute Life Saver" ke liye — detailed workflow + tech stack + features. Isi par next chat mein hum step-by-step build karenge.
+
+## Project Name (suggestion)
+**"DeadlineBuddy"** ya **"NudgeAI"** — koi bhi catchy naam (baad mein finalize kar lena)
+
+---
+
+## 1. Core Concept
+
+Ek AI agent jo sirf reminder nahi deta — balki:
+- User ke tasks samajhta hai
+- Unko chhote actionable steps mein todta hai
+- Proactively check-in karta hai
+- Procrastination detect karta hai aur escalate karta hai
+- Khud kuch actions le sakta hai (draft emails, reschedule, suggest next step)
+
+---
+
+## 2. Detailed Workflow (User Journey)
+
+### Step A — Onboarding
+1. User sign up/login karta hai (simple auth)
+2. User apna goal/task add karta hai — text se ya **voice se** (e.g., "Mujhe Friday tak ek assignment submit karna hai, abhi shuru nahi kiya")
+3. Gemini API task ko parse karta hai → deadline, priority, category extract karta hai
+
+### Step B — AI Task Breakdown
+4. Gemini agent bade task ko **micro-tasks** mein break karta hai (e.g., "Research" → "Outline" → "Draft" → "Review" → "Submit")
+5. Har micro-task ko ek estimated time aur suggested schedule slot milta hai (calendar ke free slots dekh ke)
+
+### Step C — Smart Scheduling
+6. Agent Google Calendar se sync karta hai (Calendar API), free time slots dhundta hai
+7. Micro-tasks ko calendar mein auto-suggest karta hai ("Kal 4-5pm free ho, outline yahan kar lo?")
+8. User approve/reject/reschedule kar sakta hai
+
+### Step D — Proactive Check-ins (Yeh agentic part hai)
+9. Scheduled time pe agent check-in karta hai: "Outline start kiya?" 
+10. Agar user "haan" bole → next step unlock, progress track
+11. Agar user "nahi" bole ya respond na kare → **escalation logic** trigger:
+    - Pehla nudge: friendly reminder
+    - Doosra nudge: deadline ka pressure highlight ("Sirf 6 ghante bache hain")
+    - Teesra: agent suggest kare ki kya chhod sakte ho ya extension maango
+
+### Step E — Autonomous Assistance
+12. Agar deadline risk mein hai, agent khud offer kare:
+    - "Chaaho to main professor/manager ko ek polite extension email draft kar dun?"
+    - User approve kare to Gemini email draft generate karega (auto-send nahi, user review karega — safety ke liye)
+13. Agent daily/weekly summary deta hai: kitna complete hua, kya pending hai
+
+### Step F — Voice Interaction (optional but impressive)
+14. User voice se bol sakta hai: "Aaj kya pending hai?" → agent voice/text mein jawab de
+
+---
+
+## 3. Key Features (Final List for Doc)
+
+1. **AI Task Parsing** — natural language se task, deadline, priority extract
+2. **Intelligent Task Breakdown** — bade task ko micro-steps mein todna
+3. **Smart Calendar Scheduling** — Google Calendar integration se auto-slot suggestion
+4. **Context-Aware Proactive Check-ins** — agent khud follow-up karta hai
+5. **Escalation Engine** — procrastination detect → nudges intensify hote hain
+6. **Autonomous Drafting** — extension emails, follow-ups khud draft karna
+7. **Voice-enabled Assistant** — voice commands aur replies
+8. **Progress Dashboard** — visual tracking of tasks/habits
+
+---
+
+## 4. Tech Stack (Detailed)
+
+### Core AI
+- **Google Gemini API** (via Google AI Studio) — task parsing, breakdown, conversational agent, function calling/tool use
+- **Gemini Function Calling** — agent ko tools dena (e.g., `create_calendar_event`, `draft_email`, `update_task_status`)
+
+### Frontend
+- **React.js** (ya simple HTML/CSS/JS agar time kam hai) — chat-like UI + dashboard
+- **Tailwind CSS** — styling fast karne ke liye
+
+### Backend
+- **Node.js + Express** (ya Python Flask/FastAPI) — API layer jo Gemini ko calls kare, logic handle kare
+- **Firebase** (Firestore) — user data, tasks, schedules store karne ke liye (easy aur free tier achha hai)
+
+### Google Technologies (important for "Google Tech" criteria - 15%)
+- **Google AI Studio** — core build/deploy platform (mandatory)
+- **Gemini API** — main intelligence
+- **Google Calendar API** — scheduling integration
+- **Google OAuth** — login
+- (Optional) **Web Speech API / Gemini multimodal voice** — voice input/output
+
+### Hosting/Deployment
+- **Google AI Studio's built-in deploy feature** (jo guidelines mein mandatory hai)
+- GitHub for code repo
+
+### Scheduling/Automation (agar time mile)
+- Simple **cron-like scheduler** (node-cron) backend mein for check-in reminders
+
+---
+
+## 5. Architecture Diagram (Conceptual)
+
+```
+User (Voice/Text Input)
+        ↓
+   Frontend (React)
+        ↓
+   Backend API (Node/Express)
+        ↓
+ ┌──────────────────────┐
+ │   Gemini AI Agent     │ ← Function calling tools:
+ │  (Google AI Studio)   │    - parse_task
+ │                        │    - breakdown_task
+ │                        │    - schedule_event
+ │                        │    - send_checkin
+ │                        │    - draft_email
+ └──────────────────────┘
+        ↓              ↓
+  Google Calendar    Firebase (DB)
+       API           (tasks, progress)
+```
+
+Chaaho to main isko **visual diagram** banake dikha doon (image/SVG ke roop mein) — bata do.
+
+---
+
+## 6. MVP Scope (Hackathon ke andar realistically kya banayenge)
+
+Time kam hai (1 week), to MVP yeh hona chahiye — sab features perfect nahi, par core agentic loop dikhna chahiye:
+
+**Must-have (MVP):**
+1. Task input (text) → Gemini parse + breakdown
+2. Simple dashboard jisme tasks/subtasks dikhein
+3. Calendar integration (basic) — ya at least suggest time slots
+4. Proactive check-in simulation (button-based ya time-based trigger)
+5. One autonomous action — jaise email draft generate karna
+
+**Nice-to-have (agar time bache):**
+6. Voice input/output
+7. Escalation logic (multiple nudge levels)
+8. Habit tracking / streaks
+9. Gamification (points/streaks)
+
+---
+
+## 7. Why This Will Score Well
+
+- **Agentic Depth (20%):** Function calling + autonomous actions + escalation logic = strong agent behavior, not just chatbot
+- **Innovation (20%):** Procrastination detection + escalation is unique twist most teams won't do
+- **Google Tech (15%):** Heavy use — AI Studio, Gemini, Calendar API, OAuth
+- **Impact (20%):** Real problem, relatable, clear value prop
+
+---
+
+Next chat mein hum step-by-step shuru karenge:
+1. Google AI Studio setup
+2. Gemini prompt/agent design (system instructions + function declarations)
+3. Backend skeleton
+4. Frontend skeleton
+5. Calendar integration
+6. Testing + deployment
+
+Bata do — kya tum **chat-based UI** chahte ho (jaise WhatsApp/ChatGPT style) ya **dashboard-style UI** (tasks cards, calendar view)? Isse design decide karna easy hoga next step ke liye.
