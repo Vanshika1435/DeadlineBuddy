@@ -41,3 +41,6 @@ dist/
 
 # IDE
 .idea/
+.env.*
+*.sqlite
+*.sqlite3
